@@ -17,7 +17,6 @@ void CreateProduct(FILE *in_instruction, FILE *in_mana, mana **p)
 	int flag;
 	char str[100];
 	mana *temp, *cur;
-	cur = NULL;
 
 	temp = (mana*)malloc(sizeof(struct mana));
 	if (temp == NULL)
